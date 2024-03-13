@@ -4,7 +4,7 @@
 
 - [ ] Header
     - [x] HTML
-    - [ ] CSS
+    - [X] CSS
 - [ ] Apresentação
 - [ ] Projetos
 - [ ] Conhecimentos
