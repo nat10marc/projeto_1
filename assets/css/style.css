@@ -43,6 +43,8 @@ header h2{
     color: #ececec;
 }
 
+.apresentacao {}
+
 #secao-apresentacao {
     background-color: #1B1B1B;
     display: flex;
