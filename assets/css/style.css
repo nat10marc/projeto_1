@@ -128,5 +128,39 @@ header h2{
     opacity: .3;
 }
 
+#secao-feedback {
+    height: 100vh;
+    padding: 3rem;
+}
+
+#secao-feedback h2{
+    font-family: var(--font-title);
+}
+
+.titulo-form {}
+
+#secao-feedback form{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    grid-column: 1 / 3;
+}
+
+input[type=radio],
+input[type=checkbox],
+input[type=range]
+{
+    accent-color: var(--color-destak);
+}
 
 
