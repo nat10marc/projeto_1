@@ -3,67 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>show de bola</title>
+    <title>Natan Marcondes - Web Developer</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js" defer></script>
 </head>
 <body>
     <header>
-    <div class="topo">
-        <h1 >Natan Marcondes</h1>
+        <h1>Natan Marcondes</h1>
+        <h2>Web Developer</h2>
         <h2>Estudante da FIAP</h2>
-    </div>
+        <p>Sobre mim (RESUMIDAMENTE.): Sou w  w</p>
     </header>    
 
     <section id="secao-apresentacao">
-        <img src="https://github.com/nat10marc.png" alt="foto do natan">
+        <img src="https://github.com/natanmarc95777.png" alt="Foto de perfil de Natan Marcondes">
         <div id="texto-apresentacao">
-            <h2>Aprendendo a programar em HTML e CSS</h2>
-            <p>Projeto Prototipo</p>
+            <h2>Aprendendo a programar em backend/frontend</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, est modi rem necessitatibus deserunt sapiente.</p>
         </div>
     </section>
 
     <section id="secao-projetos">
-
         <ul>
             <li>
                 <div class="card">
                     <div class="image-wrapper">
-                        <img src="assets\images\html5.png" alt="foto do html5">
+                        <img src="assets\images\html.png" alt="Imagem do Projeto 1">
                     </div>
                     <div class="card-text">
-                        <h2>HTML5</h2>
-                        <p>Descrição</p>
+                        <h2>HTML</h2>
+                        <p>Documentação</p>
                     </div>
                 </div>
             </li>
             <li>
                 <div class="card">
                     <div class="image-wrapper">
-                        <img src="assets\images\css.png" alt="foto do css">
+                        <img src="assets\images\css.png">
                     </div>
                     <div class="card-text">
                         <h2>CSS</h2>
-                        <p>Descrição</p>
+                        <p>Estilização</p>
                     </div>
                 </div>
             </li>
             <li>
                 <div class="card">
                     <div class="image-wrapper">
-                        <img src="assets\images\js.png" alt="foto do JS">
+                        <img src="assets\images\js.png" alt="js">
                     </div>
                     <div class="card-text">
                         <h2>JavaScript</h2>
-                        <p>Descrição</p>
+                        <p>Interatividade</p>
                     </div>
                 </div>
             </li>
         </ul>
-
     </section>
 
-
-
+    <section id="secao-feedback">
+        <h2>Dê seu Feedback</h2>
+        <form action="">
+            <div class="campo linha">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+            </div>
     
+            <div class="campo">
+                <label for="email">E-mail</label>
+                <input type="email" id="email">
+            </div>
+    
+            <div class="campo">
+                <label for="satisfacao">Nível de Satisfação</label>
+                <select id="satisfacao">
+                    <option value="5">Muito Satisfeito</option>
+                    <option value="4">Satisfeito</option>
+                    <option value="3">Neutro</option>
+                    <option value="2">Insatisfeito</option>
+                    <option value="1">Muito Insatisfeito</option>
+                </select>
+            </div>
+    
+            <div class="campo linha">
+                <label for="comentario">Comentário</label>
+                <textarea id="comentario" rows="4"></textarea>
+            </div>
+    
+            <button type="submit">Enviar Feedback</button>
+        </form>
+    </section>
 </body>
 </html>
+
+    

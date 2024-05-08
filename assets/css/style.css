@@ -20,7 +20,7 @@ header {
 
 header::before{
     content: "";
-    background-image: url("../images/header.png");
+    background-image: url("../images/header.jpg");
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -87,7 +87,7 @@ header h2{
     height: 420px;
     position: relative;
     cursor: pointer;
-    border: 5px solid violet;
+    border: 5px solid #FF0000;
     
     
 }
